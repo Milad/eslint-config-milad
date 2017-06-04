@@ -11,23 +11,19 @@ $ npm install --save-dev eslint eslint-config-milad
 
 Once the `eslint-config-milad` package is installed, you can use it by specifying `milad` in the [`extends`](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) section of your [ESLint configuration](http://eslint.org/docs/user-guide/configuring).
 
-```js
+```json
 {
   "extends": "milad",
-  "rules": {
-    // Additional, per-project rules...
-  }
+  "rules": {}
 }
 ```
 
 ### Using the `milad` config with `eslint:recommended`
 
-```js
+```json
 {
   "extends": ["eslint:recommended", "milad"],
-  "rules": {
-    // Additional, per-project rules...
-  }
+  "rules": {}
 }
 ```
 ### Inspiration
