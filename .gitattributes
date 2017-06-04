@@ -1,0 +1,9 @@
+# Autodetect text files
+* text=auto
+
+# Definitively text files
+.gitattributes text eol=lf
+.gitignore text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.md text eol=lf
