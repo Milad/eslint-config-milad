@@ -24,9 +24,11 @@ Once the `eslint-config-milad` package is installed, you can use it by specifyin
 
 ```js
 {
-  "extends": ["eslint:recommended", "google"],
+  "extends": ["eslint:recommended", "milad"],
   "rules": {
     // Additional, per-project rules...
   }
 }
 ```
+### Inspiration
+How I put my rules in a repository that can be used by all my projects, is inspired by how [Google](https://github.com/google/eslint-config-google) did it.
