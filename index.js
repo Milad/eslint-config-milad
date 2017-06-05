@@ -226,7 +226,7 @@ module.exports = {
         "operator-linebreak": ["error", "after"],
         "padded-blocks": ["error", "never"],
         "quote-props": ["error", "always"],
-        "quotes": ["error", "double", {"allowTemplateLiterals": true}],
+        "quotes": ["error", "single", {"allowTemplateLiterals": true}],
         // "require-jsdoc": ["error"],
         "semi": ["error", "always"],
         "semi-spacing": ["error", {
