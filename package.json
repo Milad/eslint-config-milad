@@ -1,27 +1,27 @@
 {
-  'name': 'eslint-config-milad',
-  'version': '1.0.2',
-  'description': 'My Preferred ESLint Rules',
-  'main': 'index.js',
-  'scripts': {
-    'test': 'echo \'Error: no test specified\' && exit 1'
+  "name": "eslint-config-milad",
+  "version": "1.0.3",
+  "description": "My Preferred ESLint Rules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  'repository': {
-    'type': 'git',
-    'url': 'git+https://github.com/Milad/eslint-config-milad.git'
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Milad/eslint-config-milad.git"
   },
-  'keywords': [
-    'eslint',
-    'rules',
-    'ecmascript6',
-    'es2015',
-    'node',
-    'javascript'
+  "keywords": [
+    "eslint",
+    "rules",
+    "ecmascript6",
+    "es2015",
+    "node",
+    "javascript"
   ],
-  'author': 'Milad Kawas Cale <miladkaleh@gmail.com>',
-  'license': 'MIT',
-  'bugs': {
-    'url': 'https://github.com/Milad/eslint-config-milad/issues'
+  "author": "Milad Kawas Cale <miladkaleh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Milad/eslint-config-milad/issues"
   },
-  'homepage': 'https://github.com/Milad/eslint-config-milad#readme'
+  "homepage": "https://github.com/Milad/eslint-config-milad#readme"
 }
