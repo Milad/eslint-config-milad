@@ -4,7 +4,9 @@
   "description": "My Preferred ESLint Rules",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "node_modules/.bin/eslint --color -c=index.js index.js",
+    "fix": "node_modules/.bin/eslint --color -c=index.js index.js --fix"
   },
   "repository": {
     "type": "git",
@@ -23,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/Milad/eslint-config-milad/issues"
   },
-  "homepage": "https://github.com/Milad/eslint-config-milad#readme"
+  "homepage": "https://github.com/Milad/eslint-config-milad#readme",
+  "devDependencies": {
+    "eslint": "^3.19.0"
+  }
 }
