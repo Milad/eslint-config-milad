@@ -113,7 +113,7 @@ module.exports = {
         strict: ['error', 'global'],
 
         // Variables
-        'init-declarations': ['error', 'never', {ignoreForLoopInit: true}],
+        'init-declarations': ['off', 'never', {ignoreForLoopInit: true}],
         'no-catch-shadow': ['error'],
         'no-delete-var': ['error'],
         'no-label-var': ['error'],
@@ -187,7 +187,7 @@ module.exports = {
         'max-params': ['off'],
         'max-statements': ['off'],
         'max-statements-per-line': ['error', {max: 1}],
-        'multiline-ternary': ['error', 'never'],
+        'multiline-ternary': ['off', 'never'],
         'new-cap': ['error', {
             newIsCap: true,
             capIsNew: false,
