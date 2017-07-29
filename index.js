@@ -160,7 +160,7 @@ module.exports = {
         'id-blacklist': ['off'],
         'id-length': ['off'],
         'id-match': ['off'],
-        indent: ['error', 4],
+        indent: ['error', 4, {SwitchCase: 1}],
         'jsx-quotes': ['error', 'prefer-double'],
         'key-spacing': ['error', {
             beforeColon: false,
@@ -213,7 +213,7 @@ module.exports = {
         'no-restricted-syntax': ['off'],
         'no-tabs': ['error'],
         'no-ternary': ['off'],
-        'no-trailing-spaces': ['error'],
+        'no-trailing-spaces': ['error', {skipBlankLines: true}],
         'no-underscore-dangle': ['error'],
         'no-unneeded-ternary': ['error'],
         'no-whitespace-before-property': ['error'],
