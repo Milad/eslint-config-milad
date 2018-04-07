@@ -173,7 +173,7 @@ module.exports = {
         'line-comment-position': ['error', {position: 'above'}],
         'linebreak-style': ['error', 'unix'],
         'lines-around-comment': ['error', {
-            beforeBlockComment: true,
+            beforeBlockComment: false,
             afterLineComment: false
         }],
         'lines-around-directive': ['error', 'always'],
@@ -277,7 +277,7 @@ module.exports = {
         'no-useless-rename': ['error'],
         'no-var': ['error'],
         'object-shorthand': ['error'],
-        'prefer-arrow-callback': ['error'],
+        'prefer-arrow-callback': ['error', {allowNamedFunctions: true}],
         'prefer-const': ['error'],
         'prefer-destructuring': ['error', {
             object: true,
