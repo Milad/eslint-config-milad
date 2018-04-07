@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-milad",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "My Preferred ESLint Rules",
   "main": "index.js",
   "scripts": {
